@@ -1,0 +1,108 @@
+
+.nav {
+  padding: 2%;
+  cursor: pointer;
+  color: #eee;
+}
+.logo {
+  font-size: 1.5em;
+  display: inline;
+  font-weight: bold;
+}
+.nav ul {
+  list-style: none;
+  float: right;
+  font-size: 0.8em;
+  margin: 0;
+  text-transform: uppercase;
+  margin-top: 5px;
+}
+.nav ul li {
+  display: inline;
+  padding: 0 30px;
+  letter-spacing: 1px;
+}
+
+.hero {
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  align-items: center;
+  padding: 100px 0;
+  flex-wrap: wrap;
+}
+.title {
+  font-size: 7em;
+  text-align: center;
+  width: 100%;
+  font-family: serif;
+  font-weight: bold;
+}
+.title::before {
+  content: "Beats to your rythm";
+  font-size: 10px;
+  letter-spacing: 1.8px;
+  font-weight: bold;
+  text-align: center;
+  color: #eee;
+  display: block;
+  text-transform: uppercase;
+  margin-bottom: -5px;
+}
+.button {
+  background: #ff4c54;
+  padding: 18px 29px;
+  border-radius: 10px;
+  text-transform: uppercase;
+  text-align: center;
+  font-size: 12px;
+  margin-top: 3%;
+  cursor: pointer;
+}
+i {
+  color: black;
+}
+.main {
+  position: absolute;
+  bottom: 0;
+  margin: 0 2%;
+  width: 95%;
+  background: white;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  padding: 1.4% 0;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+}
+
+.main input {
+  border: none;
+  border-bottom: 2px solid #ff4c54;
+  font-size: 1.4em;
+  font-weight: bold;
+}
+.date {
+  padding: 5px;
+  font-weight: bold;
+  color: gray;
+  border: 1px solid #828282;
+}
+.date span {
+  margin: 5px;
+}
+.date span:first-of-type {
+  border-right: 1px solid #828282;
+}
+
+.go {
+  background: lightgreen;
+  padding: 10px;
+  border-radius: 50%;
+  position: absolute;
+  right: -17px;
+  transition: all 0.5s ease-in-out;
+  transform: rotate(12deg);
+  color: #eee;
+  font-size: 1.5em;
+}
